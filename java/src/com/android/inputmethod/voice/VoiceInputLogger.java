@@ -257,7 +257,8 @@ public class VoiceInputLogger {
         // 3. speak message in message field
         // 4. press send
 
-        UserHappinessSignals.setHasVoiceLoggingInfo(hasLoggingInfo);
+	// Disable for compatibility with Froyo
+        // UserHappinessSignals.setHasVoiceLoggingInfo(hasLoggingInfo);
     }
 
     private boolean hasLoggingInfo(){
