@@ -65,7 +65,9 @@
             android:keyOutputText=":-! "
             android:keyEdgeFlags="right" />
     </Row>
-    <Row>
+    <Row
+        android:rowEdgeFlags="bottom"
+    >
         <Key
             android:keyLabel=":-["
             android:keyOutputText=":-[ "
@@ -83,13 +85,5 @@
             android:keyLabel=":-D"
             android:keyOutputText=":-D "
             android:keyEdgeFlags="right" />
-    </Row>
-    <Row
-        android:rowEdgeFlags="bottom"
-    >
-        <Key
-            android:keyLabel="&lt;3"
-            android:keyOutputText="&lt;3"
-            android:keyEdgeFlags="left" />
     </Row>
 </Keyboard>
